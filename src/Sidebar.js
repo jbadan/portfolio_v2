@@ -1,12 +1,52 @@
 import React, { Component } from 'react';
 import './App.css';
+import './Home.css';
+import{
+  BrowserRouter as Router,
+  Link
+}from 'react-router-dom';
 
 class Sidebar extends Component {
   render() {
     return (
-        <div className="col-md-4">
-            <h1>Sidebar column </h1>
+        <div className="col-md-4 my-auto mx-auto">
+          <div className="row minHeightRow">
+            <div className="col-md-12">
+              <img className="logoImage" alt="jenna" src="/jenna.jpg" />
+            </div>
+          </div>
+          <div className="row text-center">
+            <div className="col-md-12">
+              <h1 className="white"> Jenna Badanowski</h1>
+            </div>
+          </div>
+          <div className="row text-center">
+            <div className="col-md-12">
+              <h2 className="white">Web Developer</h2>
+            </div>
+          </div>
+          <div className="row text-center">
+            <div className="col-md-12">
+              <Link to="/about">
+                  <button type="button">About</button>
+              </Link>
+              <Link to="/work">
+                  <button type="button">Projects</button>
+              </Link>
+              <Link to="/contact">
+                  <button type="button">Contact</button>
+              </Link>
+            </div>
+          </div>
+          <div className="row text-center">
+            <div className="col-md-12">
+              <a href="https://www.linkedin.com/in/jenna-badanowski-6b672261/"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+              <a href="/"><i className="fa fa-file-o fa-2x" aria-hidden="true"></i></a>
+              <a href="https://github.com/jbadan"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
+            </div>
+          </div>
         </div>
+
     );
   }
 }
