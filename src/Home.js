@@ -7,8 +7,8 @@ class Home extends Component {
   render() {
     return (
       <div className="Home container">
-        <div className="row">
-          <div className="col-md-4 mx-auto">
+        <div className="row fixedHeight">
+          <div className="col-md-4 my-auto mx-auto">
             <div className="row">
               <img className="img-responsive img-circle logoImage" alt="jenna" src="/jenna.jpg" />
             </div>
