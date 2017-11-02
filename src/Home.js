@@ -21,12 +21,12 @@ class Home extends Component {
             </div>
             <div className="row text-center">
               <div className="col-md-12">
-                <h1> Jenna Badanowski</h1>
+                <h1 className="white"> Jenna Badanowski</h1>
               </div>
             </div>
             <div className="row text-center">
               <div className="col-md-12">
-                <h2>Web Developer</h2>
+                <h2 className="white">Web Developer</h2>
               </div>
             </div>
             <div className="row text-center">

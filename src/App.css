@@ -8,5 +8,25 @@ h1{
 }
 
 .fixedHeight{
-  height:100vh;
+  /*height:100vh;*/
+}
+
+.title{
+  color: #0C0A0B;
+  padding: 20px;
+  margin: 10px;
+}
+
+.example{
+  height: 200px;
+  width: 300px;
+  margin-top: 30px;
+}
+.projectRowHeight{
+  min-height: 350px;
+  margin-top: 20px;
+}
+
+.spacing{
+  margin: 40px 0;
 }
