@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Sidebar from './Sidebar';
-import habitrackComp from './public/habitrackComp.png';
-import theiaComp from './public/theiaComp.png';
-import halloDoggosComp from './public/halloDoggosComp.png';
+import habitrackComp from './habitrackComp.png';
+import theiaComp from './theiaComp.png';
+import halloDoggosComp from './halloDoggosComp.png';
 
 
 class Work extends Component {
