@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Sidebar from './Sidebar';
+import seattle from './seattle.png';
 
 class About extends Component {
   render() {
@@ -19,7 +20,7 @@ class About extends Component {
             <div className="col-sm-1"></div>
           </div>
           <div className="row">
-            <img className="mx-auto d-block seattle" src="./seattle.png"/>
+            <img className="mx-auto d-block seattle" src={seattle}/>
           </div>
           <div className="row">
             <div className="col-sm-1"></div>

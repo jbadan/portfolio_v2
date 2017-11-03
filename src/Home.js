@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './Home.css';
 import Sidebar from './Sidebar';
+import jenna from './jenna.jpg';
 import{
   BrowserRouter as Router,
   Link
@@ -16,7 +17,7 @@ class Home extends Component {
           <div className="col-md-5 my-auto mx-auto">
             <div className="row minHeightRow">
               <div className="col-md-12">
-                <img className="logoImage" alt="jenna" src="/jenna.jpg" />
+                <img className="logoImage" alt="jenna" src={jenna} />
               </div>
             </div>
             <div className="row text-center">

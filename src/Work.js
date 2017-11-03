@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Sidebar from './Sidebar';
+import habitrackComp from './habitrackComp.png';
+import theiaComp from './theiaComp.png';
+import halloDoggosComp from './halloDoggosComp.png';
+
 
 class Work extends Component {
   render() {
@@ -16,7 +20,7 @@ class Work extends Component {
           </div>
           <div className="row projectRowHeight">
             <div className="col-sm-5">
-              <a target="_blank" href="#"><img className="example" src="./habitrackComp.png" /></a>
+              <a target="_blank" href="#"><img className="example" src={habitrackComp} /></a>
             </div>
             <div className="col-sm-6">
               <h4>Project 4 Placeholder             <a  target="_blank" href="#"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
@@ -35,7 +39,7 @@ class Work extends Component {
 
           <div className="row projectRowHeight">
             <div className="col-sm-5">
-              <a target="_blank" href="http://theiafacialrecognition.herokuapp.com/"><img className="example" src="./theiaComp.png" /></a>
+              <a target="_blank" href="http://theiafacialrecognition.herokuapp.com/"><img className="example" src={theiaComp} /></a>
             </div>
             <div className="col-sm-6">
               <h4>Theia              <a target="_blank" href="https://github.com/jbadan/faceExpressAuth"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
@@ -52,7 +56,7 @@ class Work extends Component {
 
           <div className="row projectRowHeight">
             <div className="col-sm-5">
-              <a target="_blank" href="http://habitrackapp.herokuapp.com/"><img className="example" src="./habitrackComp.png" /></a>
+              <a target="_blank" href="http://habitrackapp.herokuapp.com/"><img className="example" src={habitrackComp} /></a>
             </div>
             <div className="col-sm-6">
               <h4>Habitrack             <a target="_blank" href="https://github.com/jbadan/habitrack"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
@@ -70,7 +74,7 @@ class Work extends Component {
 
           <div className="row projectRowHeight">
             <div className="col-sm-5">
-              <a target="_blank" href="http://hallodoggos.herokuapp.com/"><img className="example" src="./HalloDoggosComp.png" /></a>
+              <a target="_blank" href="http://hallodoggos.herokuapp.com/"><img className="example" src={halloDoggosComp} /></a>
             </div>
             <div className="col-sm-6">
               <h4>HalloDoggos           <a target="_blank" href="https://github.com/jbadan/hallo-doggos"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
@@ -89,7 +93,7 @@ class Work extends Component {
 
             <div className="row projectRowHeight">
               <div className="col-sm-5">
-                <a target="_blank" href="https://jbadan.github.io/platformGame/"><img className="example" src="./theiaComp.png" /></a>
+                <a target="_blank" href="https://jbadan.github.io/platformGame/"><img className="example" src={theiaComp} /></a>
               </div>
               <div className="col-sm-6">
                 <h4>Periapsis            <a target="_blank" href="https://github.com/jbadan/platformGame"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
