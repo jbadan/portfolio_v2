@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './Home.css';
-import jenna from './jenna.jpg';
+import jenna from './public/jenna.jpg';
 import{
   BrowserRouter as Router,
   Link
