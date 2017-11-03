@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Sidebar from './Sidebar';
-import seattle from './seattle.png';
+import seattle from './public/seattle.png';
 
 class About extends Component {
   render() {
