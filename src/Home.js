@@ -37,12 +37,13 @@ class Home extends Component {
                 <Link to="/work">
                     <button type="button">Projects</button>
                 </Link>
-                <Link to="/contact">
-                    <button type="button">Contact</button>
-                </Link>
                 <Link to="/resume">
                     <button type="button">Resume</button>
                 </Link>
+                <Link to="/contact">
+                    <button type="button">Contact</button>
+                </Link>
+
               </div>
             </div>
             <div className="row text-center">

@@ -45,17 +45,17 @@ class Work extends Component {
                 <strong>Description: </strong>
                 A face detection app that will detect one or more human faces and provide data visualization for face attributes using machine
                 learning-based predictions of facial features. </p>
-                <a href target="_blank"="http://theiafacialrecognition.herokuapp.com/">View Site</a>
+                <a target="_blank" href="http://theiafacialrecognition.herokuapp.com/">View Site</a>
             </div>
             <div className="col-sm-1"></div>
           </div>
 
           <div className="row projectRowHeight">
             <div className="col-sm-5">
-              <a href target="_blank"="http://habitrackapp.herokuapp.com/"><img className="example" src="./habitrackComp.png" /></a>
+              <a target="_blank" href="http://habitrackapp.herokuapp.com/"><img className="example" src="./habitrackComp.png" /></a>
             </div>
             <div className="col-sm-6">
-              <h4>Habitrack             <a href target="_blank"="https://github.com/jbadan/habitrack"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
+              <h4>Habitrack             <a target="_blank" href="https://github.com/jbadan/habitrack"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
               <p className="text-left"><strong>Contributors:</strong> <a target="_blank" href="#">Matthew Bell</a>, <a target="_blank" href="#">Lauren Perez</a>, <a target="_blank" href="#">Evan Haala</a></p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Mongo, D3, Material UI & Recharts </p>
               <p className="text-left">
@@ -74,7 +74,7 @@ class Work extends Component {
             </div>
             <div className="col-sm-6">
               <h4>HalloDoggos           <a target="_blank" href="https://github.com/jbadan/hallo-doggos"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
-              <p className="text-left"><strong>Contributors:</strong> <a target="_blank" href="www.mary-walton.com">Mary Walton</a> & <a target="_blank" href="#">Michelle Chung</a></p>
+              <p className="text-left"><strong>Contributors:</strong> <a target="_blank" href="www.mary-walton.com">Mary Walton</a> & <a target="_blank" href="https://www.michellechungdesign.com/">Michelle Chung</a></p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Bootstrap </p>
               <p className="text-left">
                 <strong>Description: </strong>
