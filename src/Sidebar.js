@@ -36,6 +36,9 @@ class Sidebar extends Component {
               <Link to="/contact">
                   <button type="button">Contact</button>
               </Link>
+              <Link to="/resume">
+                  <button type="button">Resume</button>
+              </Link>
             </div>
           </div>
           <div className="row text-center">

@@ -74,11 +74,11 @@ class Work extends Component {
             </div>
             <div className="col-sm-6">
               <h4>HalloDoggos           <a href="https://github.com/jbadan/hallo-doggos"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
-              <p className="text-left"><strong>Contributors:</strong> <a href="#">Mary Walton</a> & <a href="#">Michelle Chung</a></p>
+              <p className="text-left"><strong>Contributors:</strong> <a href="www.mary-walton.com">Mary Walton</a> & <a href="#">Michelle Chung</a></p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Bootstrap </p>
               <p className="text-left">
                 <strong>Description: </strong>
-                24-hr Hackathon with e-commerce/Halloween theme. Collaborated with two UX designers to produce a Buzzfeed-style quiz,
+                24-hr Hackathon with e-commerce/ Halloween theme. Collaborated with two UX designers to produce a Buzzfeed-style quiz,
                 with the results pointing you to the best costume for your pet.
               </p>
               <a href="http://hallodoggos.herokuapp.com/">View Site</a>

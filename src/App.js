@@ -5,6 +5,7 @@ import About from "./About";
 import Work from  "./Work";
 import Contact from "./Contact";
 import NotFound from "./NotFound";
+import Resume from "./Resume";
 
 import{
   BrowserRouter as Router,
@@ -23,6 +24,7 @@ class App extends Component {
            <Route path="/about" component={About} />
            <Route path="/work" component={Work} />
            <Route path="/contact" component={Contact} />
+           <Route path="/resume" component={Resume} />
            <Route component={NotFound} />
          </Switch>
     </Router>
