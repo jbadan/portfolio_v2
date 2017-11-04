@@ -11,6 +11,10 @@ h1{
   min-height:100vh;
 }
 
+.topPlaceholder{
+  height: 15vh;
+}
+
 .title{
   color: #0C0A0B;
   padding: 20px;

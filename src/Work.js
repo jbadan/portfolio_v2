@@ -4,6 +4,7 @@ import Sidebar from './Sidebar';
 import habitrackComp from './habitrackComp.png';
 import theiaComp from './theiaComp.png';
 import halloDoggosComp from './halloDoggosComp.png';
+import perapsisComp from './perapsisComp.png';
 
 
 class Work extends Component {
@@ -93,7 +94,7 @@ class Work extends Component {
 
             <div className="row projectRowHeight">
               <div className="col-sm-5">
-                <a target="_blank" href="https://jbadan.github.io/platformGame/"><img className="example" src={theiaComp} /></a>
+                <a target="_blank" href="https://jbadan.github.io/platformGame/"><img className="example" src={perapsisComp} /></a>
               </div>
               <div className="col-sm-6">
                 <h4>Periapsis            <a target="_blank" href="https://github.com/jbadan/platformGame"><i className="fa fa-github" aria-hidden="true"></i></a></h4>

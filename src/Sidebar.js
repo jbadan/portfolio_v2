@@ -12,7 +12,8 @@ class Sidebar extends Component {
   render() {
     return (
         <div className="col-md-4 mx-auto">
-          <Sticky enabled={true} top={150}>
+          <div className="topPlaceholder"/>
+          <Sticky enabled={true}>
             <div>
               <div className="row minHeightRow">
                 <div className="col-md-12">
