@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './Home.css';
-import jenna from './jenna.png';
+import jenna from './jenna.jpg';
 import Sticky from 'react-stickynode';
 import{
   BrowserRouter as Router,

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './Home.css';
 import Sidebar from './Sidebar';
-import jenna from './jenna.png';
+import jenna from './jenna.jpg';
 import{
   BrowserRouter as Router,
   Link

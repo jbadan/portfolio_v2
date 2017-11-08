@@ -19,11 +19,7 @@ class Resume extends Component {
             <div className="col-md-5"/>
           </div>
           <div className="row">
-            <div className="col-md-1"/>
-            <div className="col-md-10 embed-responsive embed-responsive-1by1">
-              <iframe src="https://docs.google.com/document/d/e/2PACX-1vTvBYVT6cyErDUOHoRIutz-lWsCIEGd2_uTlQkxBulMwDVTjfKVSP0DG7uqY0M9en57G4JirEoLv_Ik/pub?embedded=true"></iframe>
-            </div>
-          <div className="col-md-1"/>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vTvBYVT6cyErDUOHoRIutz-lWsCIEGd2_uTlQkxBulMwDVTjfKVSP0DG7uqY0M9en57G4JirEoLv_Ik/pub?embedded=true"></iframe>
           </div>
         </div>
       </div>

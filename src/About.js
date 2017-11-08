@@ -3,7 +3,6 @@ import './App.css';
 import Sidebar from './Sidebar';
 import seattle from './seattle.png';
 
-
 class About extends Component {
   render() {
     return (
@@ -21,32 +20,27 @@ class About extends Component {
             <div className="col-sm-1"></div>
           </div>
           <div className="row">
-            <img className="mx-auto d-block seattle img-fluid" src={seattle}/>
+            <img className="mx-auto d-block seattle" src={seattle}/>
           </div>
           <div className="row">
             <div className="col-sm-1"></div>
             <div className="col-sm-10">
+              <div className="row padding">
+                <div className="col-sm-3 underline my-auto padding">Languages</div>
+                <div className="col-sm-3 underline my-auto">Frameworks & Libraries</div>
+                <div className="col-sm-3 underline my-auto padding">Databases</div>
+                <div className="col-sm-3 underline my-auto padding">Other</div>
+              </div>
+              <div className="row">
+              <div className="col-sm-3">HTML5/CSS3/ JavaScript, Ruby, SQL</div>
+              <div className="col-sm-3">Bootstrap, Phaser.io, Rails, Express, Node, JQuery, React, Material UI, Chart.js</div>
+              <div className="col-sm-3">PostgreSQL, Sequelize, MongoDB</div>
+              <div className="col-sm-3">AJAX, RESTful web services, Git, VBA, Microsoft Office, Sharepoint, IBM Cognos BI, PeopleSoft, UltiPro</div>
+              </div>
 
-            <table className="table table-responsive">
-              <thead>
-                <tr>
-                  <th>Languages</th>
-                  <th>Frameworks & Libraries</th>
-                  <th>Databases</th>
-                  <th>Other</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">HTML5/CSS3/ JavaScript, SQL</th>
-                  <td>Bootstrap, Phaser.io, Express, Node, JQuery, React, Material UI, Chart.js</td>
-                  <td>PostgreSQL, Sequelize, MongoDB</td>
-                  <td>AJAX, RESTful web services, Git, VBA, Sharepoint, IBM Cognos BI, PeopleSoft, UltiPro</td>
-                </tr>
-              </tbody>
-              </table>
             </div>
             <div className="col-sm-1"></div>
+
           </div>
         </div>
       </div>
