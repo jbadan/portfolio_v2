@@ -14,24 +14,24 @@ class Home extends Component {
     return (
       <div className="Home container">
         <div className="row fixedHeight text-center">
-          <div className="col-xs-5 my-auto mx-auto">
+          <div className="col-md-5 my-auto mx-auto">
             <div className="row minHeightRow">
-              <div className="col-xs-12">
+              <div className="col-md-12">
                 <img className="logoImage" alt="jenna" src={jenna} />
               </div>
             </div>
             <div className="row text-center">
-              <div className="col-xs-12">
+              <div className="col-md-12">
                 <h1 className="white"> Jenna Badanowski</h1>
               </div>
             </div>
             <div className="row text-center">
-              <div className="col-xs-12">
+              <div className="col-md-12">
                 <h2 className="white">Web Developer</h2>
               </div>
             </div>
             <div className="row text-center">
-              <div className="col-xs-12">
+              <div className="col-md-12">
                 <Link to="/about">
                     <button type="button">About</button>
                 </Link>
@@ -48,7 +48,7 @@ class Home extends Component {
               </div>
             </div>
             <div className="row text-center">
-              <div className="col-xs-12">
+              <div className="col-md-12">
                 <a target="_blank" href="https://www.linkedin.com/in/jenna-badanowski-6b672261/"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
                 <a target="_blank" href="https://drive.google.com/file/d/1ecIdovljemb5OAhK5gYYwN8uAGqaMn-d/view?usp=sharing"><i className="fa fa-file-o fa-2x" aria-hidden="true"></i></a>
                 <a target="_blank" href="https://github.com/jbadan"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>

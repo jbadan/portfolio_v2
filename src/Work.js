@@ -12,18 +12,18 @@ class Work extends Component {
     return (
       <div className="row fixedHeight text-center">
         <Sidebar />
-        <div className="col-xs-8 App">
+        <div className="col-md-8 App">
           <div className="row">
-            <div className="col-xs-12">
+            <div className="col-md-12">
               <h1 className="title spacing">Recent Projects</h1>
               <h4 className="spacing"> Take a look at my <a  target="_blank"href="https://github.com/jbadan">github</a> for more projects. </h4>
             </div>
           </div>
           <div className="row projectRowHeight">
-            <div className="col-xs-5">
+            <div className="col-sm-5">
               <a target="_blank" href="#"><img className="example" src={habitrackComp} /></a>
             </div>
-            <div className="col-xs-6">
+            <div className="col-sm-6">
               <h4>Project 4 Placeholder             <a  target="_blank" href="#"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
               <p className="text-left"><strong>Contributors:</strong> Solo project</p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Mongo, D3, Material UI & Recharts </p>
@@ -34,15 +34,15 @@ class Work extends Component {
               </p>
               <a target="_blank" href="#">View Site</a>
             </div>
-            <div className="col-xs-1"></div>
+            <div className="col-sm-1"></div>
           </div>
 
 
           <div className="row projectRowHeight">
-            <div className="col-xs-5">
+            <div className="col-sm-5">
               <a target="_blank" href="http://theiafacialrecognition.herokuapp.com/"><img className="example" src={theiaComp} /></a>
             </div>
-            <div className="col-xs-6">
+            <div className="col-sm-6">
               <h4>Theia              <a target="_blank" href="https://github.com/jbadan/faceExpressAuth"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
               <p className="text-left"><strong>Contributors:</strong> Solo Project</p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, Microsoft Azure Face API, Chart.js, Cloudinary, PostgreSQL, Bootstrap, Animate.css</p>
@@ -52,14 +52,14 @@ class Work extends Component {
                 learning-based predictions of facial features. </p>
                 <a target="_blank" href="http://theiafacialrecognition.herokuapp.com/">View Site</a>
             </div>
-            <div className="col-xs-1"></div>
+            <div className="col-sm-1"></div>
           </div>
 
           <div className="row projectRowHeight">
-            <div className="col-xs-5">
+            <div className="col-sm-5">
               <a target="_blank" href="http://habitrackapp.herokuapp.com/"><img className="example" src={habitrackComp} /></a>
             </div>
-            <div className="col-xs-6">
+            <div className="col-sm-6">
               <h4>Habitrack             <a target="_blank" href="https://github.com/jbadan/habitrack"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
               <p className="text-left"><strong>Contributors:</strong> <a target="_blank" href="#">Matthew Bell</a>, <a target="_blank" href="#">Lauren Perez</a>, <a target="_blank" href="#">Evan Haala</a></p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Mongo, D3, Material UI & Recharts </p>
@@ -70,14 +70,14 @@ class Work extends Component {
               </p>
               <a target="_blank" href="http://habitrackapp.herokuapp.com/">View Site</a>
             </div>
-            <div className="col-xs-1"></div>
+            <div className="col-sm-1"></div>
           </div>
 
           <div className="row projectRowHeight">
-            <div className="col-xs-5">
+            <div className="col-sm-5">
               <a target="_blank" href="http://hallodoggos.herokuapp.com/"><img className="example" src={halloDoggosComp} /></a>
             </div>
-            <div className="col-xs-6">
+            <div className="col-sm-6">
               <h4>HalloDoggos           <a target="_blank" href="https://github.com/jbadan/hallo-doggos"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
               <p className="text-left"><strong>Contributors:</strong> <a target="_blank" href="www.mary-walton.com">Mary Walton</a> & <a target="_blank" href="https://www.michellechungdesign.com/">Michelle Chung</a></p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Bootstrap </p>
@@ -88,15 +88,15 @@ class Work extends Component {
               </p>
               <a target="_blank" href="http://hallodoggos.herokuapp.com/">View Site</a>
             </div>
-            <div className="col-xs-1"></div>
+            <div className="col-sm-1"></div>
           </div>
 
 
             <div className="row projectRowHeight">
-              <div className="col-xs-5">
+              <div className="col-sm-5">
                 <a target="_blank" href="https://jbadan.github.io/platformGame/"><img className="example" src={perapsisComp} /></a>
               </div>
-              <div className="col-xs-6">
+              <div className="col-sm-6">
                 <h4>Periapsis            <a target="_blank" href="https://github.com/jbadan/platformGame"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
                 <p className="text-left"><strong>Contributors:</strong> Solo project </p>
                 <p className="text-left"><strong>Technology: </strong>Vanilla Javascript, Phaser.io, GIMP </p>
@@ -108,7 +108,7 @@ class Work extends Component {
                 </p>
                 <a target="_blank" href="https://jbadan.github.io/platformGame/">View Site</a>
               </div>
-              <div className="col-xs-1"></div>
+              <div className="col-sm-1"></div>
             </div>
 
         </div>
