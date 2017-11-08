@@ -9,23 +9,23 @@ class About extends Component {
     return (
       <div className="row fixedHeight text-center">
         <Sidebar />
-        <div className="col-md-8 App">
+        <div className="col-xs-8 App">
           <div className="row">
-            <div className="col-sm-1"></div>
-            <div className="col-sm-10">
+            <div className="col-xs-1"></div>
+            <div className="col-xs-10">
               <h1 className="title spacing"> Hi, I{`'`}m Jenna. </h1>
               <p className="text-left"> I{`'`}m a web developer with a social sciences background. My training in psychology provides me with the analytical skills, grasp of statistics,
               effective communication and an understanding of group dynamics that make me an asset to any team. These complement my technical skillset allow for novel,
               people-centered perspectives on tough problems.</p>
             </div>
-            <div className="col-sm-1"></div>
+            <div className="col-xs-1"></div>
           </div>
           <div className="row">
             <img className="mx-auto d-block seattle img-fluid" src={seattle}/>
           </div>
           <div className="row">
-            <div className="col-sm-1"></div>
-            <div className="col-sm-10">
+            <div className="col-xs-1"></div>
+            <div className="col-xs-10">
 
             <table className="table table-responsive">
               <thead>
@@ -46,7 +46,7 @@ class About extends Component {
               </tbody>
               </table>
             </div>
-            <div className="col-sm-1"></div>
+            <div className="col-xs-1"></div>
           </div>
         </div>
       </div>
