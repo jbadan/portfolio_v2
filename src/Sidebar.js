@@ -17,7 +17,7 @@ class Sidebar extends Component {
             <div>
               <div className="row minHeightRow">
                 <div className="col-md-12">
-                  <img className="logoImage" alt="jenna" src={jenna} />
+                  <Link to="/"><img className="logoImage" alt="jenna" src={jenna} /></Link>
                 </div>
               </div>
               <div className="row text-center">
