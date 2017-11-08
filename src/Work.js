@@ -11,7 +11,9 @@ class Work extends Component {
   render() {
     return (
       <div className="row fixedHeight text-center">
-        <Sidebar />
+
+      <Sidebar />
+
         <div className="col-md-8 App">
           <div className="row">
             <div className="col-md-12">
