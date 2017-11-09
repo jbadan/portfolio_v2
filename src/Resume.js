@@ -15,19 +15,19 @@ class Resume extends Component {
           </div>
         <div className="col-md-8 App">
           <div className="row">
-            <div className="col-md-5"/>
-            <div className="col-md-1">
-              <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1ecIdovljemb5OAhK5gYYwN8uAGqaMn-d/view?usp=sharing">pdf</a>
+            <div className="col-md-2"/>
+            <div className="col-md-4">
+              <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1ecIdovljemb5OAhK5gYYwN8uAGqaMn-d/view?usp=sharing">Download pdf <i className="fa fa-file-pdf-o" aria-hidden="true"></i></a>
             </div>
-            <div className="col-md-1">
-            < a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1fJtJkTjtlYD0rX5LX-KNfu7TnVlXEwuS/view?usp=sharing"> txt</a>
+            <div className="col-md-4">
+            < a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1fJtJkTjtlYD0rX5LX-KNfu7TnVlXEwuS/view?usp=sharing">Download plain text <i className="fa fa-arrow-down" aria-hidden="true"></i></a>
             </div>
-            <div className="col-md-5"/>
+            <div className="col-md-2"/>
           </div>
           <div className="row">
             <div className="col-md-1"/>
             <div className="col-md-10 embed-responsive embed-responsive-1by1">
-              <iframe className="embed-responsive-item" title="resume" src="https://docs.google.com/document/d/e/2PACX-1vTvBYVT6cyErDUOHoRIutz-lWsCIEGd2_uTlQkxBulMwDVTjfKVSP0DG7uqY0M9en57G4JirEoLv_Ik/pub?embedded=true"></iframe>
+              <iframe className="embed-responsive-item" title="resume" src="https://docs.google.com/document/d/e/2PACX-1vTvBYVT6cyErDUOHoRIutz-lWsCIEGd2_uTlQkxBulMwDVTjfKVSP0DG7uqY0M9en57G4JirEoLv_Ik/pub?embedded=true" width="100%" ></iframe>
             </div>
           <div className="col-md-1"/>
           </div>
