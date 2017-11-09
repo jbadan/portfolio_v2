@@ -15,6 +15,9 @@ h1{
   color:#0C0A0B;
 }
 
+.paddingText{
+  padding: 20px;
+}
 .fixedHeight{
   min-height:100vh;
 }

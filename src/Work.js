@@ -26,7 +26,7 @@ class Work extends Component {
               <h4 className="spacing"> Take a look at my <a  target="_blank"href="https://github.com/jbadan">github</a> for more projects. </h4>
             </div>
           </div>
-          <div className="row projectRowHeight">
+          <div className="row projectRowHeight paddingText">
             <div className="col-sm-5">
               <a target="_blank" href="#"><img className="example" src={habitrackComp} /></a>
             </div>
@@ -45,7 +45,7 @@ class Work extends Component {
           </div>
 
 
-          <div className="row projectRowHeight">
+          <div className="row projectRowHeight paddingText">
             <div className="col-sm-5">
               <a target="_blank" href="http://theiafacialrecognition.herokuapp.com/"><img className="example" src={theiaComp} /></a>
             </div>
@@ -62,7 +62,7 @@ class Work extends Component {
             <div className="col-sm-1"></div>
           </div>
 
-          <div className="row projectRowHeight">
+          <div className="row projectRowHeight paddingText">
             <div className="col-sm-5">
               <a target="_blank" href="http://habitrackapp.herokuapp.com/"><img className="example" src={habitrackComp} /></a>
             </div>
@@ -80,7 +80,7 @@ class Work extends Component {
             <div className="col-sm-1"></div>
           </div>
 
-          <div className="row projectRowHeight">
+          <div className="row projectRowHeight paddingText">
             <div className="col-sm-5">
               <a target="_blank" href="http://hallodoggos.herokuapp.com/"><img className="example" src={halloDoggosComp} /></a>
             </div>
@@ -99,7 +99,7 @@ class Work extends Component {
           </div>
 
 
-            <div className="row projectRowHeight">
+            <div className="row projectRowHeight paddingText">
               <div className="col-sm-5">
                 <a target="_blank" href="https://jbadan.github.io/platformGame/"><img className="example" src={perapsisComp} /></a>
               </div>
@@ -118,7 +118,7 @@ class Work extends Component {
               <div className="col-sm-1"></div>
             </div>
 
-            <div className="row projectRowHeight">
+            <div className="row projectRowHeight paddingText">
               <div className="col-sm-5">
                 <a target="_blank" href="https://jbadan.github.io/tic-tac-toe/"><img className="example" src={tictacComp} /></a>
               </div>

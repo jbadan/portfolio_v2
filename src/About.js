@@ -20,7 +20,7 @@ class About extends Component {
             <div className="col-sm-1"></div>
             <div className="col-sm-10">
               <h1 className="title spacing"> Hi, I{`'`}m Jenna. </h1>
-              <p className="text-left"> I{`'`}m a web developer with a social sciences background. My training in psychology provides me with the analytical skills, grasp of statistics,
+              <p className="text-left paddingText"> I{`'`}m a web developer with a social sciences background. My training in psychology provides me with the analytical skills, grasp of statistics,
               effective communication and an understanding of group dynamics that make me an asset to any team. These complement my technical skillset allow for novel,
               people-centered perspectives on tough problems.</p>
             </div>
@@ -52,6 +52,7 @@ class About extends Component {
               </tbody>
               </table>
               </div>
+              
             </div>
             <div className="col-sm-1"></div>
           </div>
