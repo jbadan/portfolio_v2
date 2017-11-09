@@ -27,7 +27,7 @@ class About extends Component {
             <div className="col-sm-1"></div>
           </div>
           <div className="row">
-            <img className="mx-auto d-block seattle img-fluid" src={seattle}/>
+            <img alt="Seattle skyline" className="mx-auto d-block seattle img-fluid" src={seattle}/>
           </div>
           <div className="row">
             <div className="col-sm-1"></div>
@@ -52,7 +52,7 @@ class About extends Component {
               </tbody>
               </table>
               </div>
-              
+
             </div>
             <div className="col-sm-1"></div>
           </div>

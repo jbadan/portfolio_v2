@@ -49,9 +49,9 @@ class Sidebar extends Component {
               </div>
               <div className="row text-center">
                 <div className="col-md-12">
-                  <a target="_blank" href="https://www.linkedin.com/in/jenna-badanowski-6b672261/"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-                  <a target="_blank" href="https://drive.google.com/file/d/1ecIdovljemb5OAhK5gYYwN8uAGqaMn-d/view?usp=sharing"><i className="fa fa-file-o fa-2x" aria-hidden="true"></i></a>
-                  <a target="_blank" href="https://github.com/jbadan"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                  <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/jenna-badanowski-6b672261/"><i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                  <a rel="noopener noreferrer" target="_blank" href="https://drive.google.com/file/d/1ecIdovljemb5OAhK5gYYwN8uAGqaMn-d/view?usp=sharing"><i className="fa fa-file-o fa-2x" aria-hidden="true"></i></a>
+                  <a rel="noopener noreferrer" target="_blank" href="https://github.com/jbadan"><i className="fa fa-github fa-2x" aria-hidden="true"></i></a>
                 </div>
               </div>
             </div>
