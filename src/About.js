@@ -26,8 +26,8 @@ class About extends Component {
           <div className="row">
             <div className="col-sm-1"></div>
             <div className="col-sm-10">
-
-            <table className="table table-responsive">
+            <div className="table-responsive">
+            <table className="table">
               <thead>
                 <tr>
                   <th>Languages</th>
@@ -45,6 +45,7 @@ class About extends Component {
                 </tr>
               </tbody>
               </table>
+              </div>
             </div>
             <div className="col-sm-1"></div>
           </div>

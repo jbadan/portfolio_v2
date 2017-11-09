@@ -11,7 +11,7 @@ import{
 class Sidebar extends Component {
   render() {
     return (
-        <div className="col-md-4 mx-auto hidden-xs">
+        <div className="col-md-4 mx-auto">
           <div className="topPlaceholder"/>
           <Sticky enabled={true}>
             <div>

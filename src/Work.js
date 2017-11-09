@@ -5,6 +5,7 @@ import habitrackComp from './habitrackComp.png';
 import theiaComp from './theiaComp.png';
 import halloDoggosComp from './halloDoggosComp.png';
 import perapsisComp from './perapsisComp.png';
+import tictacComp from './tictacComp.png';
 
 
 class Work extends Component {
@@ -109,6 +110,23 @@ class Work extends Component {
                   through asteroids and flying enemies home to Earth.
                 </p>
                 <a target="_blank" href="https://jbadan.github.io/platformGame/">View Site</a>
+              </div>
+              <div className="col-sm-1"></div>
+            </div>
+
+            <div className="row projectRowHeight">
+              <div className="col-sm-5">
+                <a target="_blank" href="https://jbadan.github.io/tic-tac-toe/"><img className="example" src={tictacComp} /></a>
+              </div>
+              <div className="col-sm-6">
+                <h4>Tic Tac Toe           <a target="_blank" href="https://github.com/jbadan/tic-tac-toe"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
+                <p className="text-left"><strong>Contributors:</strong> Solo project </p>
+                <p className="text-left"><strong>Technology: </strong>Vanilla Javascript</p>
+                <p className="text-left">
+                  <strong>Description: </strong>
+                  Play the classic game of X's and O's vs. the computer or 2 player.
+                </p>
+                <a target="_blank" href="https://jbadan.github.io/tic-tac-toe/">View Site</a>
               </div>
               <div className="col-sm-1"></div>
             </div>
