@@ -2,15 +2,21 @@ import React, { Component } from 'react';
 import './App.css';
 import Sidebar from './Sidebar';
 import seattle from './seattle.png';
+import Navbar from './Navbar';
 
 
 class About extends Component {
   render() {
     return (
       <div className="row fixedHeight text-center">
-        <Sidebar />
-        <div className="col-md-8 App">
-          <div className="row">
+          <div className="col-md-4 d-none d-md-block mx-auto">
+            <Sidebar />
+          </div>
+          <div className="d-block d-sm-none">
+            <Navbar />
+          </div>
+          <div className='col-md-8 col-xs-12 App'>
+            <div className="row">
             <div className="col-sm-1"></div>
             <div className="col-sm-10">
               <h1 className="title spacing"> Hi, I{`'`}m Jenna. </h1>

@@ -2,7 +2,15 @@
   text-align: center;
   background: #F3F3F3;
 }
-
+.navbar-toggler-icon{
+  color: #F3F3F3;
+}
+.nav-link{
+  color: #F3F3F3;
+}
+.iconNav{
+  color: #F3F3F3;
+}
 h1{
   color:#0C0A0B;
 }

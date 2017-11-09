@@ -6,15 +6,19 @@ import theiaComp from './theiaComp.png';
 import halloDoggosComp from './halloDoggosComp.png';
 import perapsisComp from './perapsisComp.png';
 import tictacComp from './tictacComp.png';
+import Navbar from './Navbar';
 
 
 class Work extends Component {
   render() {
     return (
       <div className="row fixedHeight text-center">
-
-      <Sidebar />
-
+          <div className="col-md-4 d-none d-md-block mx-auto">
+            <Sidebar />
+          </div>
+          <div className="d-block d-sm-none">
+            <Navbar />
+          </div>
         <div className="col-md-8 App">
           <div className="row">
             <div className="col-md-12">
