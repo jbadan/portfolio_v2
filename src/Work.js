@@ -86,7 +86,7 @@ class Work extends Component {
             </div>
             <div className="col-sm-6">
               <h4>HalloDoggos           <a rel="noopener noreferrer" target="_blank" href="https://github.com/jbadan/hallo-doggos"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
-              <p className="text-left"><strong>Contributors:</strong> <a rel="noopener noreferrer" target="_blank" href="www.mary-walton.com">Mary Walton</a> & <a target="_blank" href="https://www.michellechungdesign.com/">Michelle Chung</a></p>
+              <p className="text-left"><strong>Contributors:</strong> <a rel="noopener noreferrer" target="_blank" href="https://www.mary-walton.com">Mary Walton</a> & <a target="_blank" href="https://www.michellechungdesign.com/">Michelle Chung</a></p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Bootstrap </p>
               <p className="text-left">
                 <strong>Description: </strong>
