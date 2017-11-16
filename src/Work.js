@@ -29,7 +29,7 @@ class Work extends Component {
           </div>
           <div className="row projectRowHeight paddingText">
             <div className="col-sm-5">
-              <a rel="noopener noreferrer" target="_blank" href="#"><img alt="example" className="example" src={bokeh} /></a>
+              <a rel="noopener noreferrer" target="_blank" href="https://bokehfilters.herokuapp.com/"><img alt="example" className="example" src={bokeh} /></a>
             </div>
             <div className="col-sm-6">
               <h4>Bokeh            <a  target="_blank" href="https://github.com/jbadan/meanImageEditor"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
