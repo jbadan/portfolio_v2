@@ -17,7 +17,7 @@ class Contact extends Component {
           <div className="row">
             <div className="col-md-1"/>
             <div className="col-md-10 embed-responsive embed-responsive-1by1">
-              <iframe className="embed-responsive-item" title="contact form" src="https://jenna220.typeform.com/to/VOMcC4" width="100%" >Loading...</iframe>
+              <iframe className="embed-responsive-item" title="contact form" src="https://jenna220.typeform.com/to/VOMcC4" width="80%" >Loading...</iframe>
             </div>
             <div className="col-md-1"/>
           </div>

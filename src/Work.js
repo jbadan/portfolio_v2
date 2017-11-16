@@ -4,6 +4,7 @@ import Sidebar from './Sidebar';
 import habitrackComp from './habitrackComp.png';
 import theiaComp from './theiaComp.png';
 import halloDoggosComp from './halloDoggosComp.png';
+import bokeh from './bokeh.png';
 import perapsisComp from './perapsisComp.png';
 import tictacComp from './tictacComp.png';
 import Navbar from './Navbar';
@@ -28,18 +29,17 @@ class Work extends Component {
           </div>
           <div className="row projectRowHeight paddingText">
             <div className="col-sm-5">
-              <a rel="noopener noreferrer" target="_blank" href="#"><img alt="example" className="example" src={habitrackComp} /></a>
+              <a rel="noopener noreferrer" target="_blank" href="#"><img alt="example" className="example" src={bokeh} /></a>
             </div>
             <div className="col-sm-6">
-              <h4>Project 4 Placeholder             <a  target="_blank" href="#"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
+              <h4>Bokeh            <a  target="_blank" href="https://github.com/jbadan/meanImageEditor"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
               <p className="text-left"><strong>Contributors:</strong> Solo project</p>
-              <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Mongo, D3, Material UI & Recharts </p>
+              <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Mongo, & Material UI </p>
               <p className="text-left">
                 <strong>Description: </strong>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan tortor nec tortor imperdiet, in mollis nibh laoreet.
-                 Curabitur dapibus auctor lacus, eu semper libero. Sed suscipit, ex id venenatis malesuada,
+                Bokah is a full stack custom image filtering MERN app. Apply filters to your favorite photos, save and share them.
               </p>
-              <a target="_blank" rel="noopener noreferrer" href="#">View Site</a>
+              <a target="_blank" rel="noopener noreferrer" href="https://bokehfilters.herokuapp.com/">View Site</a>
             </div>
             <div className="col-sm-1"></div>
           </div>
