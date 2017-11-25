@@ -42,7 +42,7 @@ const App = props => {
            <Route path="/work" component={Work} />
            <Route path="/contact" component={Contact} />
            <Route path="/resume" component={Resume} />
-           <Route component={NotFound} />
+           <Route path="*" component={NotFound} />
          </Switch>
         </section>
        </PageFade>
