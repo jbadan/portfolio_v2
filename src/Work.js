@@ -37,7 +37,7 @@ class Work extends Component {
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Mongo, & Material UI </p>
               <p className="text-left">
                 <strong>Description: </strong>
-                Bokah is a full stack custom image filtering MERN app. Apply filters to your favorite photos, save and share them.
+                Bokeh is a full stack custom image filtering MERN app. Apply filters to your favorite photos, save and share them.
               </p>
               <a target="_blank" rel="noopener noreferrer" href="https://bokehfilters.herokuapp.com/">View Site</a>
             </div>
