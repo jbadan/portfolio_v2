@@ -45,7 +45,7 @@ class About extends Component {
               <tbody>
                 <tr>
                   <th scope="row">HTML5/CSS3/ JavaScript, SQL</th>
-                  <td>Bootstrap, Phaser.io, Express, Node, JQuery, React, Material UI, Chart.js</td>
+                  <td>React, React Native, Bootstrap, Phaser.io, Express, Node, JQuery, Material UI, Chart.js</td>
                   <td>PostgreSQL, Sequelize, MongoDB</td>
                   <td>AJAX, RESTful web services, Git, VBA, Sharepoint, IBM Cognos BI, PeopleSoft, UltiPro</td>
                 </tr>
