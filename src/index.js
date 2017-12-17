@@ -10,6 +10,7 @@ import Resume from "./Resume";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import anime from "animejs";
 import "./fade.css";
+import 'babel-polyfill';
 
 import{
   BrowserRouter as Router,

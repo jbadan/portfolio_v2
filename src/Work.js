@@ -7,6 +7,7 @@ import halloDoggosComp from './halloDoggosComp.png';
 import bokeh from './bokeh.png';
 import perapsisComp from './perapsisComp.png';
 import tictacComp from './tictacComp.png';
+import bikeComp from './bikegifcomp.gif';
 import Navbar from './Navbar';
 
 
@@ -68,7 +69,7 @@ class Work extends Component {
             </div>
             <div className="col-sm-6">
               <h4>Habitrack             <a rel="noopener noreferrer" target="_blank" href="https://github.com/jbadan/habitrack"><i className="fa fa-github" aria-hidden="true"></i></a></h4>
-              <p className="text-left"><strong>Contributors:</strong> <a target="_blank" href="#">Matthew Bell</a>, <a target="_blank" href="#">Lauren Perez</a>, <a target="_blank" href="#">Evan Haala</a></p>
+              <p className="text-left"><strong>Contributors:</strong> <a rel="noopener noreferrer" target="_blank" href="https://mjbell.io/">Matthew Bell</a>, <a target="_blank" rel="noopener noreferrer"  href="laurenperez.github.io">Lauren Perez</a>, <a target="_blank" rel="noopener noreferrer" href="https://ehaala.github.io">Evan Haala</a></p>
               <p className="text-left"><strong>Technology:</strong> Node.js, Express, React, Mongo, D3, Material UI & Recharts </p>
               <p className="text-left">
                 <strong>Description: </strong>
